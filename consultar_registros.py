@@ -2,8 +2,7 @@ import os
 import pymysql
 
 # Leemos la contraseña usando un marcador seguro
-db_password = os.environ.get("DB_PASSWORD", "TU_CONTRASENA_AQUI")
-
+db_password = os.environ.get("DB_PASSWORD", "AVNS_U7bEZriwYqpKxRHZhTy")
 conexion = pymysql.connect(
     host="mysql-44e7c46-jiml28j-1ce9.e.aivencloud.com",
     user="avnadmin",
